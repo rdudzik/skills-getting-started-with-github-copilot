@@ -142,3 +142,41 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.activity-participants {
+  margin-top: 12px;
+}
+
+.activity-participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.participants-list li {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(180deg, #eef3ff, #e0e8ff);
+  color: #0d1b66;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(26, 35, 126, 0.08);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  white-space: nowrap;
+}
+
+.activity-card .no-participants {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
